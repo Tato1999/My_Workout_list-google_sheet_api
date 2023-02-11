@@ -9,10 +9,10 @@ time = day.strftime('%H:%M:%S')
 
 print(today)
 
-API_ID = '59d19d8a'
-API_KEY = '28f546c2239d7acc40ddd72b9a8ff5f8'
+API_ID = 'ID'
+API_KEY = 'KEY'
 
-url = 'https://trackapi.nutritionix.com/v2/natural/exercise'
+url = 'END_POINT'
 
 HEADERS = {
     "x-app-id": API_ID,
@@ -43,7 +43,7 @@ data = {
 }
 }
 header = {
-    'Authorization': 'Basic VGF0bzpHMTIzNDU2N0A='
+    'Authorization': 'Basic AUT_KEY'
 }
 RESPONS = requests.post(url_sheet,json=data, headers=header
 )
